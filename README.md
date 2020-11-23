@@ -1,8 +1,8 @@
 # SudokuSolver
 HTML, CSS, JavaScript program that solves sudoku puzzles
 
-This program mainly uses JavaScript to Dynamically create HTML Table elements (td, tr) and
-using a standard Backtracking algorithm
+Vanilla JavaScript dynamically creates HTML elements (td, tr) and
+uses a standard Backtracking algorithm to solve the puzzles
 __________________________________________________
 
 time complexity: O(N^N) where N is the size of 2D array
