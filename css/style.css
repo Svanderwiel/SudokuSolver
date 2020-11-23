@@ -1,0 +1,41 @@
+#problem, #solution {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #2F5CF4
+}
+
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+    border: solid black;
+}
+
+button {
+    margin-left: 40%;
+    margin-top: 3%;
+    text-align: center;
+    padding: .5%;
+    font-size: medium;
+    font-style: bold;
+
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+td:nth-child(3n) {
+    border-right: solid black;
+}
+
+tr:nth-child(3n) {
+    border-bottom: solid black;
+}

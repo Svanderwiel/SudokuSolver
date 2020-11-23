@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sudoku Solver</title>
+</head>
+
+<body onload="drawTable()">
+    <h1>Scott's Molly Wopping Sudoku Solver</h1>
+
+    <div class="container">
+        <div class="tables">
+            <table id="problem"></table>
+        </div>
+    
+        <div class="tables">
+            <table id="solution"></table>
+        </div>
+    
+        <div class="btnHolder">
+            <button id="solveButton" onclick="solve()">Let's Solve This Puzzle</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/grid.js"></script>
+</body>
+
+</html>
